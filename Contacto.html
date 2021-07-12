@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<h1 class="titulo">Contacto</h1>
+	</div>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/lTRiuFIWV54?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div id="paraFormulario">
+		<form action="Recibe.html" method="POST" enctype="multipart/form-data">
+			<label>Contacto</label>
+			<input type="text" name="nombre" placeholder="Ingresa tu nombre" value="Player">
+			<input type="email" name="email" placeholder="Ingresa tu mail">
+			<input type="password" name="pass" placeholder="Ingresa tu pass">
+			<br>
+			<label>Ingresa tu mensaje</label>
+			<textarea></textarea>
+			<br>
+			<label>Estas rankeado? Si</label>
+			<input type="radio" name="rankeado" value="si">
+			<label>No</label>
+			<input type="radio" name="rankeado" value="no">
+			<br>
+			<p>Que modo jugas?</p>
+			<label>ClasicoStandard</label>
+			<input type="checkbox" name="rango" value="ClasicoStandard">
+			<label>RushRandom</label>
+			<input type="checkbox" name="rango" value="RushRandom">
+			<label>Ranks</label>
+			<input type="checkbox" name="rango" value="Ranks">
+			<br>
+			<select>
+				<option>Oro</option>
+				<option>Plata</option>
+				<option>Bronce</option>
+			</select>
+			<input type="submit" name="sube_form" value="ENVIAR">
+			<input type="reset" name="resetear" value="Borrar todo">
+		</form>
+	</div>
+	<table class="pie">
+			<tr>
+				<td><a href="index.html">Inicio</a></td>
+				<td><a href="Historia.html">Historia</a></td>
+				<td><a href="Modelos.html">Modelos</a></td>
+				<td><a href="Participantes.html">Participantes</a></td>
+				<td><a href="Categorias.html">Categorias</a></td>
+				<td><a href="Contacto.html">Contacto</a></td>
+			</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,68 @@
+html {
+	background-image: url(../media/hoja.jpg);
+}
+img	{
+	width: 50px;
+}
+td img {
+	width: 100px;
+}
+video {
+	width: 420px;
+	margin: auto;
+	display: block;
+}
+#paraFormulario {
+	color: solid#000;
+}
+.titulo	{
+	font-size: 40px;
+	font-family:'Rock Salt', cursive;
+	text-align: center;
+}
+.modelos {
+	color: darkgreen;
+	font-size: 20px;
+	font-family:'Rock Salt', cursive;
+	text-align: center;
+}
+.iconos {
+	text-align: center;
+}
+.tabla {
+	align-items: center;
+	margin: auto;
+	background-color: grey;
+}
+.pie {
+	font-size: 16px;
+	font-family:'Rock Salt', cursive;
+	text-align: center;
+	margin: auto;
+	border-top: 2px solid#000;
+}
+.leyendo {
+	width: 300px;
+	margin: auto;
+	display: block;
+}
+ul li {
+	color: red;
+	font-size: 15px;
+	font-family:'Rock Salt', cursive;
+}
+ol li {
+	color: darkgreen;
+	text-align: left;
+	list-style-position: outside;
+}
+p {
+	font-size: 16px;
+	font-family:'Rock Salt', cursive;
+	line-height: 1.7;
+}
+label {
+	font-size: 16px;
+	font-family:'Rock Salt', cursive;
+	line-height: 1.7;
+}
